@@ -1,0 +1,25 @@
+/* =Skitter styles
+----------------------------------------------- */
+.box_skitter {position:relative;width:400px;height:240px;background:#4169E1;
+    top: -1px;
+    left: 130px;
+}
+.box_skitter img { max-width:none; } /* Tip for stildv */
+.box_skitter ul {display:none;}
+.box_skitter .container_skitter {overflow:hidden;position:relative;}
+.box_skitter .image {overflow:hidden; }
+.box_skitter .image img {display:none;}
+
+/* =Box clone
+-------------------------------------------------------------- */
+.box_skitter .box_clone {position:absolute;top:200px;left:0;width:100px;overflow:hidden;display:none;z-index:20;}
+.box_skitter .box_clone img {position:absolute;top:0;left:0;z-index:20;}
+
+.box_skitter .info_slide {position:absolute;top:210px;z-index:100; margin-left:155px;}
+.box_skitter .info_slide .image_number {background:#fff;float:left;padding:2px 10px;margin:0 5px 0 0;cursor:pointer;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.box_skitter .prev_button {position:absolute;top:50%;left:35px;z-index:100;width:42px;height:42px;overflow:hidden;text-indent:-9999em;margin-top:-25px;background:url(../images/prev.png) no-repeat left top;}
+.box_skitter .next_button {position:absolute;top:50%;right:35px;z-index:100;width:42px;height:42px;overflow:hidden;text-indent:-9999em;margin-top:-25px;background:url(../images/next.png) no-repeat left top;}
+

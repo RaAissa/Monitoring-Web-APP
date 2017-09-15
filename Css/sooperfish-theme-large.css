@@ -1,0 +1,55 @@
+/* Configuration of menu width */
+
+/**
+Stylesheet for SooperFish by www.SooperThemes.com
+Author: Jurriaan Roelofs
+*/
+
+html body ul#nave ul
+,html body ul#nave ul li {
+width:200px;
+}
+html body ul#nave ul ul {
+margin:0 0 0 200px;
+}
+
+/* Theming the menu */
+
+ul#nave {
+float:left;
+font-size: 120%;
+border-width:0 5px 0 5px;
+}
+
+ul#nave ul {
+border-bottom:5px solid #aeff5e;
+background:#222;
+}
+
+ul#nave li a {
+padding:10px 20px;
+font-family:"Lucida Sans","Century Gothic","Franklin Gothic Book","Franklin Gothic",helvetica,arial,verdana,sans;
+text-decoration:none;
+color:#fff;
+margin-bottom:6px;
+}
+
+ul#nave ul li a {
+padding:10px 15px;
+}
+
+ul#nave li a:hover
+,ul#nave li a:focus {
+color:#aeff5e;
+}
+
+ul#nave span.sf-arrow {
+top:20px;
+right:6px;
+background-image:url(../Images/arrows-white.png);
+}
+
+ul#nave ul span.sf-arrow {
+right:12px;
+top:16px;
+}

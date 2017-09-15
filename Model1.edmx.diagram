@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d500fce810fc480c8c45748bd9e19c64" Name="Diagramme1" ZoomLevel="95">
+        <EntityTypeShape EntityType="massylModel.Applications" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.Dashboard" Width="1.5" PointX="9.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.Dashlet" Width="1.5" PointX="12" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.DashletModule" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.EntityAuth" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.Memberships" Width="1.5" PointX="3.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.Profiles" Width="1.5" PointX="7.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.Roles" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.Tag" Width="1.5" PointX="12" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.TagRelation" Width="1.5" PointX="14.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.tbl" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="massylModel.Users" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="massylModel.MembershipApplication" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.RoleApplication" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.UserApplication" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.FK_Dashlets_Dashboard" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.FK_TagRelation_Dashboard" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.FK_Dashlets_DashletModules" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.FK_TagRelation_Dashlets" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.FK_TagRelation_DashletModule" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.MembershipUser" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.UserProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.FK_TagRelation_Tags" ManuallyRouted="false" />
+        <AssociationConnector Association="massylModel.UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

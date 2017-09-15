@@ -1,0 +1,50 @@
+﻿
+#nav
+{
+    list-style: none;
+}
+
+#nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: none;
+}
+
+#nav li
+{
+    font-size: 18px;
+    float: left;
+    position: relative;
+    width: 192px;
+    height: 23px;
+    top: 0px;
+    left: 0px;
+}
+
+#nav li ul li
+{
+    background:rgba(54,54,54,0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    padding-top:10px
+}
+
+#nav a:link, #nav a:active, #nav a:visited
+{
+    display: block;
+    color: #ff6a00;
+    text-decoration: none;
+    height: 0px;
+}
+
+#nav li ul li:hover
+{
+    
+    background:rgba(104,105,106,0.8);
+    
+}
+    
